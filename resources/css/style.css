@@ -1,0 +1,108 @@
+/* Nav Bar */
+nav {
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    padding: 10px;
+}
+
+/* Banner */
+
+.box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.banner--img {
+    width:60%;
+    float: left;
+    margin: 24px;
+}
+
+button {
+    padding: 8px 30px;
+}
+
+button:hover {
+    background-color: aqua;
+    height: 100px;
+    border-radius: 10px;
+    transition-duration: 400ms;
+}
+
+/* Content */
+
+.content {
+    display: flex;
+}
+
+.content--img {
+    width:96%;
+    margin: 32px 24px;
+}
+
+.content--box {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    text-align: center;
+}
+
+.boxes {
+    float:right;
+    width: 60%;
+}
+
+.first--box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.first--box img{
+    width:35%;
+    float: left;
+    margin: 16px;
+}
+
+.second--box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-color: lightgray;
+}
+
+.second--box img{
+    width:35%;
+    float: left;
+    margin: 16px;
+}
+.third--box {
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.third--box img{
+    width:35%;
+    float: left;
+    margin: 16px;
+}
+
+.inner--box {
+    display:block;
+    margin-left: 10%;
+}
